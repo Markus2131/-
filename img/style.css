@@ -23,7 +23,8 @@ body{
 /*Стили, на устройствах с максимальной ширеной экрана 992 пикселя и меньше */
     .heade-mobile{
     max-width:99.2%;
-    width:99.2%;  
+    width:99.2%;
+    background-size: 175%;    
     }
 }
 @media(max-width: 768px){
@@ -31,6 +32,7 @@ body{
     .heade-mobile{
         max-width:76.8%;
         width:76.8%;
+        background-size: 175%;
         }
 }
 @media(max-width: 500px){
@@ -38,6 +40,7 @@ body{
     .heade-mobile{
         max-width:50.0%;
         width:50.0%;
+        background-size: 175%;
     }
 }
 @media (max-width: 368px) {
@@ -45,6 +48,7 @@ body{
      .heade-mobile {
         width: 36.8%;
         max-width:36.8%;
+        background-size: 175%;
       }
 }
 
@@ -54,5 +58,5 @@ body{
     width: 590px;
     height: 620px;
     background-image: url(./Main_screen.png);
-    background-size: 100%;
+    background-size: 175%;
 }
