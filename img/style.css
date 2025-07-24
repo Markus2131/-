@@ -22,29 +22,29 @@ body{
 @media(max-width: 992px){
 /*Стили, на устройствах с максимальной ширеной экрана 992 пикселя и меньше */
     .heade-mobile{
-    max-width:992px;
-    width:992px;  
+    max-width:99.2%;
+    width:99.2%;  
     }
 }
 @media(max-width: 768px){
 /*Стили, на устройствах с максимальной ширеной экрана 768 пикселей и меньше */ 
     .heade-mobile{
-        max-width:768px;
-        width:768px;
+        max-width:76.8%;
+        width:76.8%;
         }
 }
 @media(max-width: 500px){
 /*Стили, на устройствах с максимальной ширеной экрана 500 пикселей и меньше */
     .heade-mobile{
-        max-width:500px;
-        width:500px;
+        max-width:50.0%;
+        width:50.0%;
     }
 }
 @media (max-width: 368px) {
       /*Стили для мобильных устройств */
      .heade-mobile {
-        width: 368px;
-        max-width:368px;
+        width: 36.8%;
+        max-width:36.8%;
       }
 }
 
