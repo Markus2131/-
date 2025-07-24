@@ -25,13 +25,21 @@ body{
     max-width:100%;
     width:100%;  
     }
+    body{
+    max-width:992px;
+        width:992px;
+    }
 }
 @media(max-width: 768px){
 /*Стили, на устройствах с максимальной ширеной экрана 768 пикселей и меньше */ 
     .heade-mobile{
         max-width:100%;
         width:100%;
-}
+        }
+    body{
+        max-width:768px;
+        width:768px;
+    }
 }
 @media(max-width: 500px){
 /*Стили, на устройствах с максимальной ширеной экрана 500 пикселей и меньше */
@@ -39,11 +47,17 @@ body{
         max-width:100%;
         width:100%;
     }
+    body{
+        max-width:500px;
+        width:500px;
+    }
 }
 @media (max-width: 368px) {
       /*Стили для мобильных устройств */
       body {
        font-size: 14px;
+          max-width:368px;
+          width:368px;
       }
      .heade-mobile {
         width: 100%;
