@@ -1,0 +1,40 @@
+html{     /*Эта конструкция ниже очень важна и всегда одинакова, всегда ее нужно писать*/
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+body{
+    margin: 0 auto;
+    /*font-family: 'Oswald',sans-serif;
+    font-weight: 400px;*/
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    scroll-behavior: smooth;
+    max-width: 590px;
+    max-height: 3770px;
+    width: 590px;
+}
+
+/*Стили для адаптации под мобильные устройства*/
+
+@media (max-width: 368px) {
+      /*Стили для мобильных устройств */
+      body {
+       font-size: 14px;
+      }
+     .container {
+        width: 25%;
+      }
+}
+
+.heade-mobile{
+    max-width: 590px;
+    max-height: 620px;
+    width: 590px;
+    height: 620px;
+    background-image: url(./Main_screen.png);
+    background-size: 100%;
+}
