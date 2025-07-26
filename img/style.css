@@ -25,6 +25,14 @@ body{
       /*Стили для мобильных устройств */
       body {
        font-size: 14px;
+           margin: 0;
+    padding: 0;
+    width: 100%;
+    scroll-behavior: smooth;
+    max-width: 590px;
+    max-height: 3770px;
+    width: 590px;
+    min-width: 590px;
       }
      .heade-mobile {
         width: 100%;
@@ -41,6 +49,16 @@ body{
     background-size: 175%;
     min-width: 100%;
 }
+    body{
+         margin: 0;
+    padding: 0;
+    width: 100%;
+    scroll-behavior: smooth;
+    max-width: 590px;
+    max-height: 3770px;
+    width: 590px;
+    min-width: 590px;
+    }
 }
 
 @media(max-width: 500px),(min-width:500px){
@@ -51,6 +69,16 @@ body{
     width: 100%;
     background-size: 175%;
    }   
+    body{
+         margin: 0;
+    padding: 0;
+    width: 100%;
+    scroll-behavior: smooth;
+    max-width: 590px;
+    max-height: 3770px;
+    width: 590px;
+    min-width: 590px;
+    }
 }
 
 @media(max-width: 360px),(min-width:360px){
@@ -61,6 +89,16 @@ body{
     width: 100%;
     background-size: 175%;
    }   
+    body{
+         margin: 0;
+    padding: 0;
+    width: 100%;
+    scroll-behavior: smooth;
+    max-width: 590px;
+    max-height: 3770px;
+    width: 590px;
+    min-width: 590px;
+    }
 }
 
 /*Секция Header и ее комплектующие - таблица стилей для нее */
@@ -168,6 +206,7 @@ body{
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
     position: relative;
+    right:40px;
     text-decoration: none;
 }
 
