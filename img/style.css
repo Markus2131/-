@@ -192,9 +192,10 @@ body{
 .fast-zagalovoc{
     position: relative;
     bottom: 14px;
+    text-align:center;
     color: rgb(44, 44, 44);
     font-size: 40px;
-    font-weight: 700px;
+    font-weight: 800px;
     padding-left:10px ;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
