@@ -175,7 +175,9 @@ body{
     width: 554px;
     height: 282px;
     padding-top: 20px;
-    padding-left: 60px;
+    padding-left: 30px;
+    align-items:center;
+    align-content:center;
 }
 
 .small-zagalovoc{
@@ -200,13 +202,12 @@ body{
 .menu-center-button2{
     max-width: 503px;
     max-height: 60px;
-    padding-left: 40px;
+    padding-left: 20px;
     bottom: 20px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
     position: relative;
-    right:40px;
     text-decoration: none;
 }
 
