@@ -181,6 +181,7 @@ body{
 }
 
 .small-zagalovoc{
+    text-align:center;
     font-size: 35px;
     padding-left: 80px;
     font-weight: 400px;
