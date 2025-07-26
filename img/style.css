@@ -246,7 +246,7 @@ body{
 }
 
 .button2:hover{
-    background-color: rgba(14, 168, 40, 0.445);;
+    background-color: rgba(14, 168, 40, 0.445);
     border: none solid  rgba(14, 168, 40, 0.445);
     width: 250px;
     height: 50px;
