@@ -202,8 +202,10 @@ body{
 .menu-center-button2{
     max-width: 503px;
     max-height: 60px;
-    padding-left: 20px;
+    padding-left: 5px;
     bottom: 20px;
+    height:60px;
+    width:503px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
@@ -228,7 +230,7 @@ body{
     height: 50px;
     transition: 0.7s;
     padding-top: 10px;
-    padding-left: 28px;
+    padding-left: 22px;
     color: black;
 }
 
@@ -238,8 +240,8 @@ body{
     width: 250px;
     text-decoration: none;
     color: rgb(56, 56, 56);
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 500;
+    font-size: 17px;
     border: 2px solid rgba(15, 209, 41, 0.219);
     background-color:rgba(14, 168, 40, 0.226);
     height:50px;
@@ -254,7 +256,7 @@ body{
     transition: 0.7s;
     text-align:center;
     padding-top: 10px;
-    padding-left: 28px;
+    padding-left: 22px;
     color: white;
 }
 
