@@ -13,10 +13,10 @@ body{
     scroll-behavior: smooth;
 }
 .first_block{
-    background-image: url(../css/black_mesa_2.jpg);
+    background-image: url(./css/imgs/black_mesa_2.jpg);
     background-size: 120% ;
     background-position:center ;
-    min-width: /*1500px*/100%;
+    min-width: 1500px;
     min-height: 962px;
     margin: 0 auto;
     padding: 0 auto;
@@ -478,6 +478,7 @@ input:focus {
     letter-spacing: 0px;
 
 }
+
 
 
 
