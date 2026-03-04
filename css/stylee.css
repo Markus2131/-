@@ -13,7 +13,7 @@ body{
     scroll-behavior: smooth;
 }
 .first_block{
-    background-image: url('./css/black_mesa_2.webp');
+    background-image: url('black_mesa_2.webp');
     background-size: 120% ;
     background-position:center ;
     min-width: 1500px;
@@ -477,6 +477,7 @@ input:focus {
     letter-spacing: 0px;
 
 }
+
 
 
 
