@@ -16,6 +16,8 @@ body{
     background-image: url('black_mesa_2.webp');
     background-size: 120% ;
     background-position:center ;
+    max-width:1500px;
+    max-height:962px;
     min-width: 1500px;
     min-height: 962px;
     margin: 0 auto;
@@ -477,6 +479,7 @@ input:focus {
     letter-spacing: 0px;
 
 }
+
 
 
 
