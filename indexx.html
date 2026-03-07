@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="indexx.html">
+    <link rel="stylesheet" href="./css/stylee.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/mesa_icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./javascript/blackMesa.js">
+    <title>BlackMesa</title>
+</head>
+<body>
+    <header class="first_block">
+        <div class="top_menu"><!--Top menu container-->
+            <img src="./img/mesa_icon.ico" alt="" class="logo_top">
+            <a href="articles.html" class="next_str_1">Articles</a>
+            <a href="#Next_str" class="next_str_1">Incedents</a>
+            <a href="#Next_str" class="next_str_1">Projects</a>
+            <a href="#Next_str" class="next_str_1">Process</a>
+        </div>
+        <div class="central_text">
+            <p class="text_central">Discover Amazing places in<br> Xen<wbr></p>
+        </div>
+        <div class="pod_text">
+            <p class="text_pod">The BlackMesa is a very interesting laboratory.<br>We opened a new world, this world - Xen<br>
+            Black Mesa was apparently helmed by the United States government,<br>
+             as the Great Seal was seen on the ground of several lobbies<br>
+              of the Black Mesa Research Facility, and the United<br>
+               States Nuclear Regulatory Commission, as seen on<br>
+                several com-link status screens.</p>
+        </div>
+        <div class="text_search">
+            <p class="search_text">It's Time to choose</p>
+            <button class="circle" onclick="userChoose()"></button>
+        </div>
+        <div class="search">
+            <form>
+            <input type="text" placeholder="Search on BlackMesa..." class="input">
+            <button type="submit" class="butt">Choose.</button>
+            </form>
+        </div>
+<!--        <button id="openBtn">BM.library</button>
+<dialog id="favDialog">
+  <form method="dialog">
+    <p><label>Password: <input type="text"></label></p>
+    <button>Close</button>
+  </form>
+</dialog>-->
+    </header>
+    <section class="card">
+        <p id="Head_cards">Information for User</p>
+        <div class="cards_row">
+            <div class="card_1">
+                <img src="/html/img/card_icon_1.jpg" alt="img" class="card_icon_1">
+                <h4 class="h4_card">BlackMesa</h4>
+                <p class="text_card_1">The Black Mesa logo is directly based<br>
+                    on the company's name, appearing as a stylized mesa
+                    mountain against the sky.</p>
+                    <a href="#discription" class="info_card">Learn more -> </a>
+            </div>
+               <div class="card_1">
+                <img src="/html/img/card_icon_2.jpg" alt="img" class="card_icon_1">
+                <h4 class="h4_card">BlackMesa Files</h4>
+                <p class="text_card_1">The Black Mesa files is directly based<br>
+                    on the company's archive, appearing as a stylized mesa
+                    mountain against the sky.</p>
+                    <a href="#info" class="info_card">Learn more -> </a>
+               </div>
+                     <div class="card_1">
+                        <img src="/html/img/card_lambda_2.svg" alt="img" class="card_icon_1">
+                <h4 class="h4_card">Lambda section</h4>
+                <p class="text_card_1">The Black Mesa lambda loboratory is directly based
+                    on the company's archive, <br>appearing as a info mesa
+                     against the Xen.</p>
+                     <a href="#bottom_video" class="info_card">Learn more -> </a>
+            </div>
+        </div>
+    </section>
+    <section id="galery_blackmesa">
+        <p class="head_galery">Get pictures for your imagines</p>
+        <a href="#more" class="see_more">See more -></a>
+        <div class="img_head">
+            <img src="/html/img/galery_black_1.jpg" alt="img" class="hed_img">
+            <img src="/html/img/galery_black_mesa_3.jpg" alt="img" class="hed_img">
+        </div>
+        <div class="bottom_img">
+            <img src="/html/img/galery_xen.jpg" alt="img" class="bott_img">
+                <img src="/html/img/galery_mesa_2.jpg" alt="img" class="bott_img">
+                    <img src="/html/img/galery_xen_3.jpg" alt="img" class="bott_img">
+        </div>
+    </section>
+    <section id="discription">
+        <div class="head_discr">
+            <img src="/html/img/discr_pict.jpg" alt="img" class="discr_pict">
+            <div class="disr_head">
+                <p class="head_head">Prefecture in focus : Xen</p>
+                <p class="discription">Xen Trees can now be killed with any weapon,<br> either curling up or gibbing depending on the damage<br>Xen  world - is a  very interesting place .<br>In his  lives a more-more  new vid a fauna.<br>Let's go in Xen with our!</p>
+                <a href="" class="view_img">View see more -></a>
+            </div>
+        </div>
+        <div class="discr_bot">
+                <div class="disr_head">
+                <p class="head_head_2">Black Mesa mountain: Apatch</p>
+                <p class="discription_2">Xen Trees can now be killed with any weapon,<br> either curling up or gibbing depending on the damage<br>Xen  world - is a  very interesting place .<br>In his  lives a more-more  new vid a fauna.<br>Let's go in Xen with our!</p>
+                <a href="" class="view_img_2">View see more -></a>
+            </div>
+            <img src="/html/img/discr_bottom.jpg" alt="img" class="discr_pict">
+            </div>
+    </section>
+    <section id="info">
+        <p class="head_info">Information about BlackMesa</p>
+        <hr width="200" align="left" color="gray">
+        <div class="cards_info_top">
+            <div class="card_info_1">
+                <div class="img_info">
+                    <div class="discrip_card">
+                         <p class="name_card_inf"> <button id="openBtn">Access</button>
+                            <dialog id="favDialog">
+                                   <form method="dialog" class="form_c">
+                                      <p><label>Password: <input type="password" class="not" placeholder="code"></label></p>
+                                                                        <button><a href="#galery_blackmesa" style="text-decoration: none;color: black;">Next</a></button>
+                                                                        <p>Enter white pole button is exit window<br> code:123</p>
+                                   </form>
+                           </dialog></p>
+                    </div>     
+                    <!---->
+                </div>
+                <p class="pod_img_text">Light behaves oddly in Xen. Looking at the different<br> 
+                    skybox textures, there are multiple sources for light in<br>
+                     the border world.</p>
+                     <div class="img_btn"><a href="" class="img_btn">More</a></div>
+            </div>
+            <div class="card_info_1">
+                <div class="img_info_2">
+                    <div class="discrip_card">
+                         <p class="name_card_inf_2"> <button id="openBtn2">Access</button>
+                            <dialog id="favDialog2">
+                                   <form method="dialog" class="form_c">
+                                      <p><label>Password: <input type="text" class="not"></label></p>
+                                                                        <button><a href="#galery_blackmesa" style="text-decoration: none;color: black;">Next</a></button>
+                                                                        <p>Enter white pole button is exit window<br> code:123</p>
+                                   </form>
+                           </dialog></p>
+                    </div>     
+                </div>
+                <p class="pod_img_text">Light behaves oddly in Xen. Looking at the different<br> 
+                    skybox textures, there are multiple sources for light in<br>
+                     the border world.</p>
+                     <div class="img_btn"><a href="" class="img_btn">More</a></div>
+            </div>
+            <div class="card_info_1">
+                <div class="img_info_3">
+                    <div class="discrip_card">
+                         <p class="name_card_inf_3"> <button id="openBtn3">Access</button>
+                            <dialog id="favDialog3">
+                                   <form method="dialog" class="form_c">
+                                      <p><label>Password: <input type="text" class="not"></label></p>
+                                                                        <button><a href="#galery_blackmesa" style="text-decoration: none;color: black;">Next</a></button>
+                                                                        <p>Enter white pole button is exit window<br> code:123</p>
+                                   </form>
+                           </dialog></p>
+                    </div>     
+                    <!--<button id="openBtn">BM.library</button>-->
+                </div>
+                <p class="pod_img_text">Light behaves oddly in Xen. Looking at the different<br> 
+                    skybox textures, there are multiple sources for light in<br>
+                     the border world.</p>
+                     <div class="img_btn"><a href="" class="img_btn">More</a></div>
+            </div>
+        </div>
+        <div class="cards_info_top">
+            <div class="card_info_1">
+                <div class="img_info_4">
+                    <div class="discrip_card">
+                         <p class="name_card_inf_4"> <button id="openBtn4">Access</button>
+                            <dialog id="favDialo4">
+                                   <form method="dialog" class="form_c">
+                                      <p><label>Password: <input type="text" class="not"></label></p>
+                                                                        <button><a href="#galery_blackmesa" style="text-decoration: none;color: black;">Next</a></button>
+                                                                        <p>Enter white pole button is exit window<br> code:123</p>
+                                   </form>
+                           </dialog></p>
+                    </div>     
+                    <!---->
+                </div>
+                <p class="pod_img_text">Light behaves oddly in Xen. Looking at the different<br> 
+                    skybox textures, there are multiple sources for light in<br>
+                     the border world.</p>
+                     <div class="img_btn"><a href="" class="img_btn">More</a></div>
+            </div>
+            <div class="card_info_1">
+                <div class="img_info_5">
+                    <div class="discrip_card">
+                         <p class="name_card_inf_5"> <button id="openBtn5">Access</button>
+                            <dialog id="favDialog5">
+                                   <form method="dialog" class="form_c">
+                                      <p><label>Password: <input type="text" class="not"></label></p>
+                                                                        <button><a href="#galery_blackmesa" style="text-decoration: none;color: black;">Next</a></button>
+                                                                        <p>Enter white pole button is exit window<br> code:123</p>
+                                   </form>
+                           </dialog></p>
+                    </div>     
+                </div>
+                <p class="pod_img_text">Light behaves oddly in Xen. Looking at the different<br> 
+                    skybox textures, there are multiple sources for light in<br>
+                     the border world.</p>
+                     <div class="img_btn"><a href="" class="img_btn">More</a></div>
+            </div>
+            <div class="card_info_1">
+                <div class="img_info_6">
+                    <div class="discrip_card">
+                         <p class="name_card_inf_6"> <button id="openBtn6">Access</button>
+                            <dialog id="favDialog6">
+                                   <form method="dialog" class="form_c">
+                                      <p><label>Password: <input type="text" class="not"></label></p>
+                                                                        <button><a href="#galery_blackmesa" style="text-decoration: none;color: black;">Next</a></button>
+                                                                        <p>Enter white pole button is exit window<br> code:123</p>
+                                   </form>
+                           </dialog></p>
+                    </div>     
+                    <!--<button id="openBtn">BM.library</button>-->
+                </div>
+                <p class="pod_img_text">Light behaves oddly in Xen. Looking at the different<br> 
+                    skybox textures, there are multiple sources for light in<br>
+                     the border world.</p>
+                     <div class="img_btn"><a href="" class="img_btn">More</a></div>
+            </div>
+        </div>
+    </section>
+    <section id="bottom_video">
+
+    </section>
+    <section id="bottom_head">
+        <p class="left_head">BlackMesa:<br>HL1</p>
+        <div class="right_head">
+            <div class="text_boxbott">
+                <p class="left_bot">Company</p>
+                <p class="left_bot">About</p>
+                <p class="left_bot">Team</p>
+                <p class="left_bot">Careers</p>
+            </div>
+            <div class="text_boxbott">
+                <p class="left_bot">Locate</p>
+                <p class="left_bot">Data</p>
+                <p class="left_bot">Examples</p>
+                <p class="left_bot">City's</p>
+            </div>
+            <div class="text_boxbott">
+                <p class="left_bot">Social media</p>
+                <p class="left_bot">Twitter</p>
+                <p class="left_bot">Facedook</p>
+                <p class="left_bot">Ingrams</p>
+            </div>
+        </div>
+    </section>
+ <script>
+  const dialog = document.getElementById('favDialog');
+  document.getElementById('openBtn').onclick = () => dialog.showModal();
+  const dialog2 = document.getElementById('favDialog2');
+  document.getElementById('openBtn2').onclick = () => dialog.showModal();
+  const dialog3 = document.getElementById('favDialog3');
+  document.getElementById('openBtn3').onclick = () => dialog.showModal();
+  const dialog4 = document.getElementById('favDialog4');
+  document.getElementById('openBtn4').onclick = () => dialog.showModal();
+  const dialog5 = document.getElementById('favDialog5');
+  document.getElementById('openBtn5').onclick = () => dialog.showModal();
+  const dialog6 = document.getElementById('favDialog6');
+  document.getElementById('openBtn6').onclick = () => dialog.showModal();
+</script>
+</body>
+</html>
