@@ -16,7 +16,7 @@ body{
     background-image: url('black_mesa_2.jpg');
     background-size: 120% ;
     background-position:center ;
-    min-width: /*1500px*/100%;
+    min-width: 1500px;
     min-height: 962px;
     margin: 0 auto;
     padding: 0 auto;
@@ -1398,3 +1398,4 @@ form {
     line-height: 100%;
 
 }
+
