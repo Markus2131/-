@@ -13,7 +13,7 @@ body{
     scroll-behavior: smooth;
 }
 .first_block{
-    background-image: url(/html/img/black_mesa_2.jpg);
+    background-image: url('black_mesa_2.jpg');
     background-size: 120% ;
     background-position:center ;
     min-width: /*1500px*/100%;
@@ -522,7 +522,7 @@ form {
     max-height: 375px;
     min-width: 392px;
     min-height: 375px;
-    background-image: url(/html/img/info_card_one.webp);
+    background-image: url('info_card_one.webp');
     background-size: 180%;
     background-position: center;
     z-index: 0;
@@ -535,7 +535,7 @@ form {
     min-width: 392px;
     min-height: 375px;
     background-position: center;
-    background-image: url(/html/img/card_info_two.webp);
+    background-image: url('card_info_two.webp');
     background-size: 180%;
     z-index: 0;
     position: relative;
@@ -546,7 +546,7 @@ form {
     max-height: 375px;
     min-width: 392px;
     min-height: 375px;
-    background-image: url(/html/img/card_info_three.webp);
+    background-image: url('card_info_three.webp');
     background-size: 180%;
     background-position: center;
     z-index: 0;
@@ -558,7 +558,7 @@ form {
     max-height: 375px;
     min-width: 392px;
     min-height: 375px;
-    background-image: url(/html/img/card_survivor.webp);
+    background-image: url('card_survivor.webp');
     background-size: 180%;
     background-position: center;
     z-index: 0;
@@ -570,7 +570,7 @@ form {
     max-height: 375px;
     min-width: 392px;
     min-height: 375px;
-    background-image: url(/html/img/bottom_bg_one.webp);
+    background-image: url('bottom_bg_one.webp');
     background-size: 180%;
     background-position: center;
     z-index: 0;
@@ -582,7 +582,7 @@ form {
     max-height: 375px;
     min-width: 392px;
     min-height: 375px;
-    background-image: url(/html/img/galery_xen.jpg);
+    background-image: url('galery_xen.jpg');
     background-size: 180%;
     background-position: center;
     z-index: 0;
@@ -856,7 +856,7 @@ form {
 #favDialog{
     /*background-color: rgba(0, 17, 255, 0.384);*/
     border-color: rgba(0, 17, 255, 0.178);
-    background-image: url(/html/img/input_menu_back.webp);
+    background-image: url('input_menu_back.webp');
     background-size: 100%;
     width: 150px;
     height: 160px;
@@ -898,7 +898,7 @@ form {
     max-height: 609px;
     min-width: 1500px;
     min-height: 609px;
-    background-image: url(/html/img/bottom_bg_two.webp);
+    background-image: url('bottom_bg_two.webp');
     background-size: 100%;
     background-position: center;
     margin-top: 144px;
@@ -958,7 +958,7 @@ form {
 
 /* ТУТ У НАС УЖЕ ИДЕТ ВТОРАЯ СТРАНИЦА ARTICLES*/
 .head_str{
-    background-image: url(/html/img/galery_black_1_edit.jpg);
+    background-image: url('galery_black_1_edit.jpg');
     background-size: 143% ;
     background-position:left ;
     min-width: 1500px;
@@ -1122,7 +1122,7 @@ form {
     max-height: 620px;
     min-width: 1050px;
     min-height: 620px;
-    background-image: url(/html/img/file_bs_head.jpg);
+    background-image: url('file_bs_head.jpg');
     background-size: 120%;
     background-position: left;
     position: relative;
@@ -1135,7 +1135,7 @@ form {
     max-height: 620px;
     min-width: 1050px;
     min-height: 620px;
-    background-image: url(/html/img/bottom_bg_two.webp);
+    background-image: url('bottom_bg_two.webp');
     background-size: 120%;
     background-position: left;
     position: relative;
@@ -1235,7 +1235,7 @@ form {
     position: relative;
     bottom: 20px;
     left: 600px;
-    background-image: url(/html/img/galery_xen_3.jpg);
+    background-image: url('galery_xen_3.jpg');
     
 }
 #Dr_2{
@@ -1247,7 +1247,7 @@ form {
     position: relative;
     top: 250px;
     left: 100px;
-    background-image: url(/html/img/galery_black_1_edit.jpg);
+    background-image: url('galery_black_1_edit.jpg');
     
 }
 .head_three{
@@ -1307,7 +1307,7 @@ form {
     max-height: 600px;
     min-width: 1500px;
     min-height: 600px;
-    background-image: url(/html/img/bottom_back_articl.webp.jpg);
+    background-image: url('bottom_back_articl.webp.jpg');
     background-size: 100%;
     background-position: top;
 }
@@ -1396,4 +1396,5 @@ form {
     font-weight: 500;
     letter-spacing: 0px;
     line-height: 100%;
+
 }
