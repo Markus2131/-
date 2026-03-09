@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --index: calc(1vw + 1vh);
+    --gutter: 30px;
+    --side-small: 26;
+    --side-big: 36;
+    --depth: 40000px;  
+    --transition: .75s cubic-bezier(.075, .5, 0, 1)
+}
+/*Shrift pishe Arial
+font-weight: 300 и 100 для некоторых элементов.;
+*/
+body{
+    /*background-image: url(/html/img/background_for_process_str.gif);*/
+    background-color: black;
+    background-size: 100%;
+    background-position: top;
+    color: white;
+    font-size: calc(var(--index)* .8);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.75;
+    height: var(--depth);
+    font-weight: 300;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    perspective: 1500px;
+}
+.gallery{
+    transform-style: preserve-3d;
+    height: 100%;
+}
+.frame{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition) ,opacity .75s ease;
+    will-change: transform;
+    transform-style: preserve-3d;
+}
+h1,h2,h3,h4,a {
+    font-weight: 10;
+    text-transform: uppercase;
+}
+.frame a{
+    text-align: center;
+    font-size: calc(var(--index) * 3.3);
+    font-family: Arial, Helvetica, sans-serif;
+    width: min-content;
+    line-height: 1;
+}
+.frame-media{
+    position: relative;
+    width: calc(var(--index) * var(--side-small));
+    height: calc(var(--index) * var(--side-big));
+    background-position: right;
+    background-size: cover;
+}
+.frame-media_left{
+    right: calc(var(--side-small) / 2 * var(--index) + var(--gutter));
+}
+.frame-media_right{
+    left: calc(var(--side-small) / 2 * var(--index) + var(--gutter));
+}
+.frame_bg{
+    background-color: rgb(0 0 0 / .87);
+}
+video.frame-media{
+    width: calc(var(--index) * var(--side-big));
+    height: calc(var(--index) * var(--side-small));
+}
+video.frame-media_right{
+    left: calc(var(--side-big) / 2 * var(--index) + var(--gutter));
+}
+video.frame-media_left{
+    right: calc(var(--side-big) / 2 * var(--index) + var(--gutter));
+}
+.text-right > * {
+    position: relative;
+    left: 18vw;
+}
+.text-center > * {
+    position: relative;
+    left: 0vw;
+}
+.text-left > * {
+    position: relative;
+    right: 18vw;
+}
+.frame h3 {
+    font-size: calc(var(--index) * 3);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.frame p {
+    max-width: 30vw;
+    margin-top: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
